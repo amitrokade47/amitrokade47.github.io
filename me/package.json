@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://amitrokade47.github.io/me",
+  "homepage": "https://amitrokade47.github.io/me/",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
     "react": "^16.8.3",
