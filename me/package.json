@@ -1,8 +1,8 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://amitrokade47.github.io/",
+  "private": false,
+  "homepage": "https://amitrokade47.github.io",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
     "gh-pages": "^2.2.0",
