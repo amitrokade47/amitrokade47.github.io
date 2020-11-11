@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://amitrokade47.github.io",
+  "homepage": "https://amitrokade47.github.io/me",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
     "react": "^16.8.3",
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
