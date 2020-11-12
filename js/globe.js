@@ -260,6 +260,11 @@ function ready(error, world, names) {
 
 }
 
+global.process = {
+    env: {
+      NODE_ENV: 'production' // or development
+    }
+  }
 
 
 
