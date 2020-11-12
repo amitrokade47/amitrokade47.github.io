@@ -262,8 +262,8 @@ function ready(error, world, names) {
 
 
 queue()
-    .defer(d3.json, "%PUBLIC_URL%/world-110m.json")
-    .defer(d3.tsv, "%PUBLIC_URL%/world-country-names.tsv")
+    .defer(d3.json, "./world-110m.json")
+    .defer(d3.tsv, "./world-country-names.tsv")
     .await(ready);
 
 }());
