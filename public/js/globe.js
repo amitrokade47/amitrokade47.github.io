@@ -269,8 +269,8 @@ global.process = {
 
 
 queue()
-    .defer(d3.json, process.env.PUBLIC_URL+"/me/world-110m.json")
-    .defer(d3.tsv, process.env.PUBLIC_URL+"/me/world-country-names.tsv")
+    .defer(d3.json, "%PUBLIC_URL%/world-110m.json")
+    .defer(d3.tsv, "%PUBLIC_URL%/world-country-names.tsv")
     .await(ready);
 
 }());
