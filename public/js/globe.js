@@ -260,13 +260,6 @@ function ready(error, world, names) {
 
 }
 
-global.process = {
-    env: {
-      NODE_ENV: 'production' // or development
-    }
-  }
-
-
 
 queue()
     .defer(d3.json, "%PUBLIC_URL%/world-110m.json")
